@@ -1,0 +1,5 @@
+pyinstaller -F -n jtool -i icon.ico --noupx main.py
+
+-n:指定输出exe名称
+-i：指定icon
+--noupx：指定不压缩，打包出来的程序会大些，但是对应的执行速度会快些
